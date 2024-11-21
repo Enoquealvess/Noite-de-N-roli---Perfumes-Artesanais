@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Georgia', serif;
+    color: #6b2c3e;
+}
+
+p {
+    color: #333;
+}
+
+.paf img, .product-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.paf img {
+    height: 500px;
+}
+
+.product-img {
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.row.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-navbar {
+    background-color: #f3f3f3;
+    padding: 0.5rem 1.5rem;
+}
+
+.navbar-brand {
+    color: #f8cdf6;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #ff00c8;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff0000;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff00c8;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #ff00c859;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+footer {
+    background-color: #6b2c3e;
+    color: #f8cdd0;
+    padding: 20px;
+    text-align: center;
+}
+
+button, .btn {
+    background-color: #6b2c3e;
+    color: #f8cdd0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background-color: transparent;
+    color: #6b2c3e;
+}
+
+.secondary-text {
+    color: #d1b280;
+    font-size: 0.85em;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: #2e2e2d;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size: 1rem;
+    color: #666666;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.info .col-md-4 {
+    text-align: center;
+}
+
+.info .col-md-4 img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.info h5 {
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    color: #ff00c8;
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 1rem;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus, a:active {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #ffe6f0;
+    padding: 10px 0;
+    font-size: 0.85rem;
+    color: #333;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer .payment-methods h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.footer .payment-methods .icons img {
+    width: 30px;
+    margin: 5px;
+}
+
+.footer .brand-section .logo {
+    width: 70px;
+}
+
+.footer .brand-section .seals img {
+    width: 40px;
+}
+
+.footer .copyright {
+    font-size: 0.75rem;
+    color: #555;
+}
+
+.texto img {
+    width: 100px;
+    height: auto;
+}
